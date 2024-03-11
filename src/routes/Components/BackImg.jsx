@@ -3,6 +3,8 @@ import "./BackImgStyle.css";
 import React from "react";
 
 import { Link } from "react-router-dom";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
 
 const BackImg = () => {
   return (
@@ -24,6 +26,29 @@ const BackImg = () => {
           <Link to="/contact" className="btn btn-light">
             Contact
           </Link>
+        </div>
+        <div className="socials">
+          <a
+            href="https://www.linkedin.com/in/chailock-maseko"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            href="https://github.com/chailock"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="https://twitter.com/SpheChack"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaTwitter />
+          </a>
         </div>
       </div>
     </div>

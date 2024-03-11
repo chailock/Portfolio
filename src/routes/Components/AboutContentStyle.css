@@ -1,52 +1,92 @@
-.about{
+
+.about {
     width: 100%;
     margin: 3rem 0;
     display: flex;
-    align-items: center;
+    align-items: flex-start; 
     justify-content: center;
     flex-wrap: wrap;
-    height: 100%;
-}
-
-.about .left{
-    text-align: center;
-    margin: auto;
-    padding: 1rem;
-    max-width: 420px;
-}
-
-.about .left p{
-    margin: 1.2rem 0;
-}
-
-.about .right{
+    height: auto;
+  }
+  
+  .contact-btn {
+    background-color: #4ffbdf;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about .left {
+    width: 100%; 
     max-width: 700px;
-}
-
-.right .img-container{
-
+    padding: 0 20px;
+  }
+  
+  .about .left h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about .left p {
+    margin: 1.2rem 0;
+  }
+  
+  .about .right {
+    width: 100%; 
+    max-width: 700px;
+    margin-top: 20px; 
+  }
+  
+  .right .img-container {
     display: grid;
-    grid-template-columns: repeat(12,1fr);
+    grid-template-columns: repeat(12, 1fr); 
+    gap: 20px; 
     position: relative;
     align-items: center;
     text-align: center;
-}
+  }
+  
+ 
+  .right img{
+    max-width: 80%; 
+    border: 1px solid #4ffbdf;
+ }
+ .right .top{
+     grid-column: 1 / span 8;
+     grid-row: 1;
+     padding-top: 20%;
+     z-index: 6;
+ }
+ 
+ .right .bot{
+     grid-column: 4 / -1;
+     grid-row: 1;
+     z-index: 5;
+ }
 
-.right img{
-   max-width: 90%; 
-   border: 1px solid #333;
-}
-.right .top{
-    grid-column: 1 / span 8;
-    grid-row: 1;
-    padding-top: 20%;
-    z-index: 6;
-}
+ @media screen and (min-width: 640px) {
+  .about {
+    flex-direction: row; 
+    align-items: flex-start;
+    justify-content: center;
+  }
 
-.right .bot{
-    grid-column: 4 / -1;
-    grid-row: 1;
-    z-index: 5;
-}
+  .right .img-container {
+    flex-direction: row;
+  }
+  .about .left p {
+    margin: 1.2rem 0;
+    width: 100%; 
+  }
+  
 
+  .right .bot {
+    margin-top: 0; 
+    margin-left: 20px; 
+  }
+}
  

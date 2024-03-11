@@ -1,16 +1,6 @@
 label{
-
     color: white;
     margin-bottom: 0.6rem;
-
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-    padding:4rem 1rem;
-    margin: auto;
-    max-width: 600px;
 }
 
 form input, form textarea{

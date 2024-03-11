@@ -1,81 +1,90 @@
 import { NavLink } from "react-router-dom";
-import "./ProjectCardStyle.css";
-
 import React from "react";
+import "./ProjectCardStyle.css";
 
 const ProjectCard = () => {
   return (
     <div className="work-container">
-      <h1 className="project-heading"> Projects</h1>
       <div className="project-container">
         <div className="project-card">
-          <img src="../Images/Html & Css.PNG" alt="Image" />
-          <h2 className="project-title"> HTML & CSS</h2>
+          <img src="../Images/Drones.PNG" alt="Image" />
+          <h2 className="project-title">
+            {" "}
+            Dronics Wesbite
+            <div class="horizotal"></div>
+          </h2>
+          <p>
+            Dronics platform showcasing a variety of drone products and for
+            anyone interested in the world of drone technology.
+          </p>
           <div className="pro__details">
-            <p>
-              This is the Front-end Website Design that I develop using only
-              HTMl & CSS.
-            </p>
             <div className="pro-btns">
-              <NavLink
-                to="https://chailock.github.io/assign.html/ "
-                className="btn"
-              >
+              <NavLink to="/ProjectDetails_1" className="btn">
                 VIEW
-              </NavLink>
-              <NavLink
-                to="https://github.com/chailock/assign.html"
-                className="btn"
-              >
-                SOURCE
               </NavLink>
             </div>
           </div>
         </div>
         <div className="project-card">
-          <img src="../Images/Drones.PNG" alt="Image" />
-          <h2 className="project-title"> HTML & CSS</h2>
+          <img src="../Images/Question.PNG" alt="Image" />
+          <h2 className="project-title">
+            Survey CRUD<div class="horizotal"></div>{" "}
+          </h2>
+          <p>
+            Questionnaire designed to streamline the process of creating,
+            editing, and managing survey questions.
+          </p>
           <div className="pro__details">
-            <p>
-              This is the Front-end Website Design that I develop using only
-              HTMl & CSS.
-            </p>
             <div className="pro-btns">
-              <NavLink
-                to="https://chailock.github.io/Assignment-2/main.html"
-                className="btn"
-              >
+              <NavLink to="/ProjectDetails_2 " className="btn">
                 VIEW
               </NavLink>
-              <NavLink
-                to="https://github.com/chailock/Assignment-2"
-                className="btn"
-              >
-                SOURCE
+            </div>
+          </div>
+        </div>
+        <div className="project-card">
+          <img src="../Images/AddUser.PNG" alt="Image" />
+          <h2 className="project-title">
+            {" "}
+            CRUD User
+            <div class="horizotal"></div>
+          </h2>
+          <p>
+            The application consist of various components, including forms for
+            adding and editing and delete user information.
+          </p>
+          <div className="pro__details">
+            <div className="pro-btns">
+              <NavLink to="/ProjectDetails " className="btn">
+                VIEW
               </NavLink>
             </div>
           </div>
         </div>
         <div className="project-card">
           <img src="../Images/React.PNG" alt="Image" />
-          <h2 className="project-title"> React JS </h2>
+          <h2 className="project-title">
+            {" "}
+            React CRUD<div class="horizotal"></div>{" "}
+          </h2>
           <div className="pro__details">
-            <p>
-              This is the Front-end Website Designed that using HTMl/CSS and
-              React js for filling up a questionnaire.
-            </p>
             <div className="pro-btns">
-              <NavLink
-                to="https://aquamarine-cascaron-d14e59.netlify.app/"
-                className="btn"
-              >
+              <NavLink to="/ProjectDetails_3 " className="btn">
                 VIEW
               </NavLink>
-              <NavLink
-                to="https://github.com/chailock/Questionnaire-React-App"
-                className="btn"
-              >
-                SOURCE
+            </div>
+          </div>
+        </div>
+        <div className="project-card">
+          <img src="../Images/React.PNG" alt="Image" />
+          <h2 className="project-title">
+            {" "}
+            React CRUD <div class="horizotal"></div>
+          </h2>
+          <div className="pro__details">
+            <div className="pro-btns">
+              <NavLink to="/ProjectDetails_4 " className="btn">
+                VIEW
               </NavLink>
             </div>
           </div>

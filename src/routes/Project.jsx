@@ -12,7 +12,7 @@ const Project = () => {
       <Navbar />
       <BackImg2
         heading="PROJECTS"
-        text="Sit back & take a moment to browse through some of my completed work."
+        text="Explore My Creative Universe: A Showcase of Innovation and Code Mastery."
       />
       <ProjectCard />
       <Footer />

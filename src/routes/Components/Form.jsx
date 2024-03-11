@@ -10,7 +10,7 @@ const Form = () => {
         <input type="text" />
         <label>Email</label>
         <input type="text" />
-        <label>Subject</label>
+        <label>Phone</label>
         <input type="text" />
         <label>Message</label>
         <textarea rows="6" placeholder="Type your message here"></textarea>

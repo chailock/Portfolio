@@ -7,14 +7,18 @@ const AboutContent = () => {
   return (
     <div className="about">
       <div className="left">
-        <h1>About Me</h1>
+        <h1>All About Me</h1>
         <p>
-          My work includes developing mobile apps, making web apps, handling
-          small-scale DevOps, and implementing desktop apps. I've worked using
-          different technologies, both backend and frontend. I'm currently
-          working using React js, Spring Boot, TypeScript and Java. My goal is
-          to build highly performant applications that solve real-world problems
-          and provide users with an awesome experience.
+          Versatile Full-stack Java Developer with proficiency in multiple
+          programming languages and a diverse background in software
+          development. Expertise includes front-end technologies such as HTML,
+          CSS, and JavaScript, coupled with strong skills in Java for back-end
+          development. Proven experience in designing, implementing, and
+          maintaining robust applications. Adept at collaborating with
+          cross-functional teams to deliver innovative solutions. With a solid
+          foundation in various languages and a commitment to staying abreast of
+          industry trends, I bring a wealth of experience and a passion for
+          creating impactful software solutions.
         </p>
         <Link to="/contact">
           <button className="btn">CONTACT</button>
@@ -23,7 +27,7 @@ const AboutContent = () => {
       <div className="right">
         <div className="img-container">
           <div className="img-stack top">
-            <img src="../Images/java.jpg" className="img" alt="MyImage" />
+            <img src="../Images/p.webp" className="img" alt="MyImage" />
           </div>
           <div className="img-stack bot">
             <img src="../Images/react.jpg" className="img" alt="MyImage" />
