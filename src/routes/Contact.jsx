@@ -15,7 +15,7 @@ const Contact = () => {
     <div>
       <Navbar />
       <BackImg2 heading="CONTACTS" text="Get in touch" />
-      <div className="container">
+      <div className="containerr">
         <div className="left">
           <div className="information">
             <div className="location">
