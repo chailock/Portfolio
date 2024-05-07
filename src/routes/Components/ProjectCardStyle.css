@@ -131,15 +131,16 @@
     .card__article {
       position: relative;
       overflow: hidden;
+      height: 100%;
     }
     
     .card__img {
-      width: 328px;
+      height: 100%;
       border-radius: 1.5rem;
     }
     
     .card__data {
-      width: 280px;
+      width: 100%;
       background-color:darkgray; 
       padding: 1.5rem 2rem;
       border-radius: 1rem;
