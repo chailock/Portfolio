@@ -11,8 +11,8 @@ const ProjectDetails_1 = () => {
     <>
       <Navbar />
       <BackImg2
-        heading="HTML & CSS Website"
-        text="Dronics website serves as an effective platform for showcasing drone technology, attracting potential customers, and building brand credibility. With its user-friendly interface, engaging design, and informative content, the website effectively communicates the value proposition of Dronics and encourages visitors to explore further."
+        heading="JavaScript/Typescript"
+        text="Orion Software Solutions is a South African software development company founded in 2025, specializing in building high-performance, scalable web and mobile applications."
       />
       <div className="work">
         <div className="project">
@@ -20,18 +20,18 @@ const ProjectDetails_1 = () => {
             <img src="../Images/Drones.PNG" alt="Image" />
             <h2 className="project-t">
               {" "}
-              Dronics Wesbite<div className="horizotal"></div>
+              Orion Software Solutions Website<div className="horizotal"></div>
             </h2>
             <div className="pro__d">
               <div className="pro-btns">
                 <NavLink
-                  to="https://chailock.github.io/Dronics-Html-Css/"
+                  to="https://orionsoftwaresolutions.netlify.app/"
                   className="btn"
                 >
                   VIEW - p
                 </NavLink>
                 <NavLink
-                  to="https://github.com/chailock/Dronics-Html-Css.git"
+                  to="https://github.com/chailock/Orion-Software-Solutions-Website.git"
                   className="btn"
                 >
                   SOURCE

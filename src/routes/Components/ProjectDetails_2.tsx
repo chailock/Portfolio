@@ -11,13 +11,8 @@ const ProjectDetails_2 = () => {
     <>
       <Navbar />
       <BackImg2
-        heading=" React Crud Questionnaire"
-        text="Created a React CRUD questionnaire with radio buttons presents several hurdles,
-         including dynamically generating questions, managing radio button states for user responses,
-          calculating aggregated responses (agree, disagree, neutral) for each question,
-           efficiently handling state updates without compromising performance, and ensuring UI consistency and input validation. 
-           These challenges necessitate meticulous planning of component architecture, state management,
-         and event handling to deliver a seamless user experience while accurately capturing and computing questionnaire data.."
+        heading=" Dr Pixley Isaka kaSeme Municipality Site"
+        text="Official website for Dr Pixley Isaka kaSeme Local Municipality. A responsive React + Vite platform that delivers news, tenders, vacancies, services & payments to the community in Volksrust, Mpumalanga."
       />
       <div className="work">
         <div className="project">
@@ -25,19 +20,19 @@ const ProjectDetails_2 = () => {
             <img src="../Images/Question.PNG" alt="Image" />
             <h2 className="project-t">
               {" "}
-              Survey CRUD
+              Dr Pixley Isaka kaSeme Municipality Site
               <div className="horizotal"></div>
             </h2>
             <div className="pro__d">
               <div className="pro-btns">
                 <NavLink
-                  to="https://aquamarine-cascaron-d14e59.netlify.app/"
+                  to="https://pixley.netlify.app/"
                   className="btn"
                 >
                   VIEW - P
                 </NavLink>
                 <NavLink
-                  to="https://github.com/chailock/Questionnaire-React-App"
+                  to="https://github.com/chailock/pixley-frontend.git"
                   className="btn"
                 >
                   SOURCE

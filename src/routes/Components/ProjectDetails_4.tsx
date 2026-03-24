@@ -15,17 +15,17 @@ const ProjectDetails_4 = () => {
         <div className="project">
           <div className="project-c">
             <img src="../Images/Drones.PNG" alt="Image" />
-            <h2 className="project-t"> One</h2>
+            <h2 className="project-t"> Dr Mbuyisa Site</h2>
             <div className="pro__d">
               <div className="pro-btns">
                 <NavLink
-                  to="https://chailock.github.io/Assignment-2/main.html"
+                  to="https://drmbuyisa.netlify.app/"
                   className="btn"
                 >
                   VIEW
                 </NavLink>
                 <NavLink
-                  to="https://github.com/chailock/Assignment-2"
+                  to="https://github.com/chailock/Dr.Mbuyisa-site.git"
                   className="btn"
                 >
                   SOURCE

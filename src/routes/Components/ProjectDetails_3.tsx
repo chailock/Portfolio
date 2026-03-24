@@ -12,27 +12,24 @@ const ProjectDetails_3 = () => {
       <Navbar />
       <BackImg2
         heading=" React CRUD "
-        text="Creating my first React CRUD project was a mix of excitement and challenges. I navigated through setting up the development environment,
-         learning React fundamentals, managing state, integrating APIs, handling user input, configuring routing, styling components,
-          dealing with errors, testing, and preparing for deployment. Each step involved a learning curve,
-           from understanding React concepts to implementing responsive design and deploying the application.
-            Despite facing challenges, the experience provided valuable insights and confidence in building React CRUD applications"
+        text="A vibrant, interactive website for Fire Arts Works, a creative fireworks and pyrotechnics display company.
+The site showcases stunning fireworks displays, services for events & celebrations, gallery of past shows, and booking information — all with a dynamic, explosive design that captures the magic and energy of fireworks."
       />
       <div className="work">
         <div className="project">
           <div className="project-c">
             <img src="../Images/Html & Css.PNG" alt="Image" />
-            <h2 className="project-t"> Three</h2>
+            <h2 className="project-t"> Fire Arts Works </h2>
             <div className="pro__d">
               <div className="pro-btns">
                 <NavLink
-                  to="https://chailock.github.io/assign.html/ "
+                  to="https://fireworks-site.netlify.app/ "
                   className="btn"
                 >
                   VIEW
                 </NavLink>
                 <NavLink
-                  to="https://github.com/chailock/assign.html"
+                  to="https://github.com/chailock/FireWorksStudios-site.git"
                   className="btn"
                 >
                   SOURCE
