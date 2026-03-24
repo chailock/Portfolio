@@ -1,5 +1,5 @@
 
-import "About.css";
+import "./About.css";
 
 const About = () => {
   return (
